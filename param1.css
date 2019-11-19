@@ -38,7 +38,7 @@ html {
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    transition:all 0s ease;
+    transition:all 0.5s ease;
     width: 10rem;
     text-align: center;
     color: white;
