@@ -32,5 +32,5 @@ Please feel free to make a pull request. There is so much to improve on.
 
 ### Developer
 -   e-mail :  [kumaramanjha2901@gmail.com](mailto:kumaramanjha2901@gmail.com)
--   Linkedin: [https://www.linkedin.com/in/aman-kumar-6b31b9127/]
+-   Linkedin: https://www.linkedin.com/in/aman-kumar-6b31b9127/
 
