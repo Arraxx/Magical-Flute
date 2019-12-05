@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color:black ;
+}
+
+.logo {
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+
+.nav-links {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.nav-links a{
+  color: aliceblue;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
 h1{
     
     color:black;
