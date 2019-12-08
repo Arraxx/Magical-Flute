@@ -52,15 +52,13 @@ p{
     text-shadow: 0px 30px 20px  black;
     font-size:  3rem;
 }
-html {
-    font-size: 10px;
-    background: url(https://images.unsplash.com/photo-1548124542-95039a9624d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) bottom center;
-    background-size: cover;
-  }
   
   body,html {
     margin: 0;
     padding: 0;
+    font-size: 10px;
+    background: url(https://images.unsplash.com/photo-1548124542-95039a9624d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) bottom center;
+    background-size: cover;
     font-family: sans-serif;
   }
   
