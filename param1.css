@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+.mt-5
+{
+  margin-top:0;
+  padding-top:0;
+}
+
+.marquee
+{
+ color:darkmagenta;
+ font-size:25px;
+ text-align:center;
+ margin:0;
+ padding:0;
+ padding-top:70px;
+}
+
 
 nav {
   display: flex;
