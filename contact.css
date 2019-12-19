@@ -1,21 +1,79 @@
-html {
+* {
+  margin: 0;
+  padding:0px;
+  box-sizing: border-box;
+}
+.btn{
+    width: 135px;
+    border-radius: 1020px;
+}
+h2{
+  margin-top: 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color:black ;
+}
+
+.logo {
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+@media screen and (min-width: 992px)
+{
+  .collapse{
+    -webkit-text-stroke: thin;
+    padding-left: 45%;
+  }
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item li {
+  list-style: none;
+}
+.nav-item a{
+  color: aliceblue;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+}
+.nav-item a:hover{
+  border-radius :1020px;
+  transition: 0.6 s all;
+  background-color: white;
+  min-height: 25px;
+}
+body,html {
     background: url(https://images.unsplash.com/photo-1548124542-95039a9624d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-size :10px;
 }
-
 h2 {
     text-align: center;
     letter-spacing: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+
 }
 
 h3 {
     text-align: center;
     letter-spacing: 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
 }
 
 h3 a {
