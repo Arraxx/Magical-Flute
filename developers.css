@@ -7,9 +7,6 @@
     width: 135px;
     border-radius: 1020px;
 }
-h2{
-  margin-top: 200px;
-}
 nav {
   display: flex;
   justify-content: space-around;
@@ -49,7 +46,7 @@ nav {
 }
 .nav-item a:hover{
   border-radius :1020px;
-  transition: 0.4s all;
+  transition: 0.6 s all;
   background-color: white;
   min-height: 25px;
 }
@@ -61,29 +58,43 @@ body,html {
     background-size: cover;
     font-size :10px;
 }
-h2 {
-    text-align: center;
-    letter-spacing: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
-
+.developer-wrapper{
+	margin: 100px auto;
+	width: 80%;
 }
-
-h3 {
-    text-align: center;
-    letter-spacing: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:25px;
+.developer-section{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 4.0rem;
+	justify-content: center;
+	align-items: center;
 }
-
-h3 a {
-    color: black;
+.developer_name{
+	max-width: 240px;
+	border-radius: 5px;
+	background-color: #5cb85c;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px 3px #5cb85c27;
 }
-
-h1{
-    text-align: center;
+.developer-img{
+	border-radius: 5px 5px 0px 0px;
 }
-
-#home{
-    color: black;
+p{
+	text-align: center;
+	margin: 1.2rem auto;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+@media screen and (max-width: 992px)
+{
+	.developer-wrapper{
+		margin-top: 200px;
+	}
+}
+@media screen and (max-width: 700px)
+{
+	.developer-section{
+		grid-template-columns: auto;
+	}
 }
