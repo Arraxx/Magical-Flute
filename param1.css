@@ -5,7 +5,7 @@
 }
 
 .btn{
-width: 100px;
+width: 170px;
 }
 
 h1{
@@ -31,23 +31,22 @@ nav {
   font-size: 18px;
 }
 
-.nav-links {
+.nav-item {
   display: flex;
-  width: 20%;
   justify-content: space-around;
 }
-
-.nav-links a{
+.nav-item li {
+  list-style: none;
+}
+.nav-item a{
   color: aliceblue;
   text-decoration: none;
   letter-spacing: 2px;
-  font-weight: bold;
   font-size: 12px;
+  text-transform: uppercase;
 }
 
-.nav-links li {
-  list-style: none;
-}
+
 
 h1{
     
