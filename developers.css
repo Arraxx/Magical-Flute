@@ -92,7 +92,7 @@ p{
 		margin-top: 200px;
 	}
 }
-@media screen and (max-width: 414px)
+@media screen and (max-width: 700px)
 {
 	.developer-section{
 		grid-template-columns: auto;
