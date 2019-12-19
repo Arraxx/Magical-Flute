@@ -78,7 +78,6 @@ body,html {
 	box-shadow: 2px 2px 5px 3px #5cb85c27;
 }
 .developer-img{
-	/*width: 100%;*/
 	border-radius: 5px 5px 0px 0px;
 }
 p{
@@ -86,4 +85,16 @@ p{
 	margin: 1.2rem auto;
 	font-size: 1.8rem;
 	font-weight: 600;
+}
+@media screen and (max-width: 992px)
+{
+	.developer-wrapper{
+		margin-top: 200px;
+	}
+}
+@media screen and (max-width: 414px)
+{
+	.developer-section{
+		grid-template-columns: auto;
+	}
 }
