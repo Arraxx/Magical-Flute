@@ -5,7 +5,8 @@
 }
 
 .btn{
-width: 170px;
+width: 135px;
+border-radius: 1020px;
 }
 
 h1{
@@ -30,6 +31,13 @@ nav {
   letter-spacing: 4px;
   font-size: 18px;
 }
+@media screen and (min-width: 992px)
+{
+  .collapse{
+    -webkit-text-stroke: thin;
+    padding-left: 45%;
+  }
+}
 
 .nav-item {
   display: flex;
@@ -44,9 +52,14 @@ nav {
   letter-spacing: 2px;
   font-size: 12px;
   text-transform: uppercase;
+  border: none;
 }
-
-
+.nav-item a:hover{
+  border-radius :1020px;
+  transition: 0.6 s all;
+  background-color: white;
+  min-height: 25px;
+}
 
 h1{
     
