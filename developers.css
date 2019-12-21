@@ -57,6 +57,7 @@ body,html {
     -o-background-size: cover;
     background-size: cover;
     font-size :10px;
+    font-family: 'Cinzel', serif;
 }
 .developer-wrapper{
 	margin: 100px auto;
