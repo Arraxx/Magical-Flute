@@ -62,7 +62,7 @@ nav {
 }
 
 h1{
-    
+
     color:black;
     text-align: center;
     text-shadow: 0px 30px 20px  black;
@@ -75,7 +75,7 @@ p{
     text-shadow: 0px 30px 20px  black;
     font-size:  3rem;
 }
-  
+
   body,html {
     margin: 0;
     padding: 0;
@@ -84,7 +84,7 @@ p{
     background-size: cover;
     font-family: sans-serif;
   }
-  
+
   .keys {
     display: flex;
     flex: 1;
@@ -92,9 +92,8 @@ p{
     align-items: center;
     justify-content: center;
   }
-  
+
   .key {
-    border: .4rem solid black;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
@@ -106,22 +105,29 @@ p{
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
   }
-  
+
+  .c1{border: .4rem solid red;}
+  .c2{border: .4rem solid blue;}
+  .c3{border: .4rem solid yellow;}
+  .c4{border: .4rem solid green;}
+  .c5{border: .4rem solid orange;}
+  .c6{border: .4rem solid pink;}
+  .c7{border: .4rem solid black;}
+
   .playing {
     transform: scale(1.1);
     border-color:blue;
     box-shadow: 0 0 1rem blue;
   }
-  
+
   kbd {
     display: block;
     font-size: 4rem;
   }
-  
+
   .sound {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
   }
-  
