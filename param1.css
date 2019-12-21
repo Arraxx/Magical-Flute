@@ -61,6 +61,34 @@ nav {
   min-height: 25px;
 }
 
+@media screen and (min-width: 873px){
+#head-animation{
+  font-size: 40px;
+  -webkit-transition:font-size 2s; /* For Safari 3.1 to 6.0 */
+  transition: font-size 2s;
+}
+
+#head-animation:hover{
+  font-size: 80px ;
+}
+}
+
+@media screen and (max-width: 872px){
+  #head-animation{
+    font-size: 30px;
+  }
+} 
+
+@media screen and (max-width: 472px){
+  .first-img{
+    height: 40px;
+  }
+  
+  .second-img{
+    height: 40px;
+  }
+}
+
 h1{
     
     color:black;
@@ -69,6 +97,19 @@ h1{
     font-size: 5rem;
     padding-top: 5%;
 }
+
+.jumbotron{
+  background-color: rgba(170,170,170,0.5);
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+#fact{
+  display: block;
+  font-size: 20px;
+  text-shadow: none;
+}
+
 p{
     color: black;
     text-align: center;
