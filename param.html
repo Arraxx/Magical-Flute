@@ -2,66 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MAGICAL-FLUTE</title>
+  <!--bootstrap-4 css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="param1.css">
 </head>
 <body>
-<nav>
-  <div class="logo">
-    <h3>MAGICAL-FLUTE</h3>
-
+<!--Navbar start-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#"><span class="display-5 font-weight-bold" style="font-size: 20px;">MUSICAL-FLUTE</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item m-3">
+        <a class="btn btn-outline-warning" href="#" style="font-size: 15px;">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item m-3">
+        <a class=" btn btn-outline-warning" href="contact.html" style="font-size: 15px;">Contact</a>
+      </li>
+      <li class="nav-item m-3">
+        <a class=" btn btn-outline-warning" href="developer.html" style="font-size: 15px;">Developers</a>
+      </li>
+    </ul>
   </div>
-  <ul class="nav-links">
-    <li>
-      <a href="#">Home</a>
-    </li>
-    <li>
-      <a href="contact.html">Contact</a>
-    </li>
-  </ul>
 </nav>
+
+<marquee>This app has been produced using HTML, CSS and Javascript.Press the keys corresponding keys to produce flute notes</marquee>
+
 <h1> MAGICAL-FLUTE</h1>
 <p>PRESS THE KEYS....</p>
   <div class="keys">
-    <div data-key="65" class="key c1">
+    <div data-key="65" class="key">
       <kbd>A</kbd>
       <span class="sound">Do</span>
     </div>
-    <div data-key="83" class="key c2">
+    <div data-key="83" class="key">
       <kbd>S</kbd>
       <span class="sound">Re</span>
     </div>
-    <div data-key="68" class="key c3">
+    <div data-key="68" class="key">
       <kbd>D</kbd>
       <span class="sound">Mi</span>
     </div>
-    <div data-key="70" class="key c4">
+    <div data-key="70" class="key">
       <kbd>F</kbd>
       <span class="sound">Fa</span>
     </div>
-    <div data-key="71" class="key c5">
+    <div data-key="71" class="key">
       <kbd>G</kbd>
       <span class="sound">So</span>
     </div>
-    <div data-key="72" class="key c6">
+    <div data-key="72" class="key">
       <kbd>H</kbd>
       <span class="sound">La</span>
     </div>
-    <div data-key="74" class="key c7">
+    <div data-key="74" class="key">
       <kbd>J</kbd>
       <span class="sound">Ti</span>
     </div>
-
+   
     </div>
   </div>
 
-  <audio data-key="65" src=" "></audio>
-  <audio data-key="83" src=" "></audio>
-  <audio data-key="68" src=" "></audio>
-  <audio data-key="70" src=" "></audio>
-  <audio data-key="71" src=" "></audio>
-  <audio data-key="72" src=" "></audio>
-  <audio data-key="74" src=" "></audio>
+  <audio data-key="65" src="note a.wav"></audio>
+  <audio data-key="83" src="note s.wav"></audio>
+  <audio data-key="68" src="note d.wav"></audio>
+  <audio data-key="70" src="note f.wav"></audio>
+  <audio data-key="71" src="note g.wav"></audio>
+  <audio data-key="72" src="note h.wav"></audio>
+  <audio data-key="74" src="note j.wav"></audio>
 
 
 <script>
@@ -84,4 +96,8 @@
 
 
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </html>
+
