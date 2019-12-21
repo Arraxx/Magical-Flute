@@ -65,7 +65,7 @@ body,html {
 h2 {
     text-align: center;
     letter-spacing: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
     font-size: 50px;
 
 }
@@ -73,7 +73,7 @@ h2 {
 h3 {
     text-align: center;
     letter-spacing: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
     font-size:25px;
 }
 
