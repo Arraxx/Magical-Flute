@@ -4,8 +4,24 @@
   box-sizing: border-box;
 }
 .btn{
-    width: 135px;
+    width: 130px;
     border-radius: 1020px;
+}
+
+
+
+.btn1,.btn2{
+  width: 80px;
+}
+.btn3{
+  width: 105px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color:black ;
 }
 
 
@@ -19,7 +35,7 @@
 {
   .collapse{
     -webkit-text-stroke: thin;
-    padding-left: 45%;
+    padding-left: 46%;
   }
 }
 
@@ -92,7 +108,7 @@ p{
 }
 
 .d{
-	margin: 1.2rem auto;
+  margin: 0;
 	font-size: 1.8rem;
 	font-weight: 600;
   color: white;
