@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  .btn{
+  width: 80px;
+  border-radius: 900px;
+  }
+  h1{
+    margin-top: 50px;
+  }
+  marquee{
+    color: black;
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:black ;
+  }
+  
+  .logo {
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+  }
+  @media screen and (min-width: 992px)
+  {
+    .collapse{
+      -webkit-text-stroke: thin;
+      padding-left: 45%;
+    }
+  }
+  
+  /*navbar css start*/
+  .nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .btn{
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  
+  .btn-outline-light{
+    border-color: transparent;
+  }
+  /*navbar css end*/
+  
+  @media screen and (min-width: 873px){
+  #head-animation{
+    font-size: 40px;
+    -webkit-transition:font-size 2s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 2s;
+  }
+  
+  #head-animation:hover{
+    font-size: 80px ;
+  }
+  }
+  
+  @media screen and (max-width: 872px){
+    #head-animation{
+      font-size: 30px;
+    }
+  } 
+  
+  @media screen and (max-width: 472px){
+    .first-img{
+      height: 40px;
+    }
+    
+    .second-img{
+      height: 40px;
+    }
+  }
+  
+  h1{
+  
+      color:black;
+      text-align: center;
+      text-shadow: 0px 30px 20px  black;
+      font-size: 5rem;
+      padding-top: 5%;
+  }
+  
+  .jumbotron{
+    background-color: rgba(170,170,170,0.5);
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  #fact{
+    display: block;
+    font-size: 20px;
+    text-shadow: none;
+  }
+  
+  p{
+      color: black;
+      text-align: center;
+      text-shadow: 0px 30px 20px  black;
+      font-size:  3rem;
+  }
+  
+    body,html {
+      margin: 0;
+      padding: 0;
+      font-size: 10px;
+      background: url(https://images.unsplash.com/photo-1548124542-95039a9624d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Cinzel', serif;
+    }
+  
+    .keys {
+      display: flex;
+      flex: 1;
+      min-height: 53vh;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .key {
+      border-radius: .5rem;
+      margin: 1rem;
+      font-size: 1.5rem;
+      padding: 1rem .5rem;
+      transition:all 0.5s ease;
+      width: 10rem;
+      text-align: center;
+      color: white;
+      background: rgba(0,0,0,0.4);
+      text-shadow: 0 0 .5rem black;
+    }
+  
+    .c1{border: .4rem solid red;}
+    .c2{border: .4rem solid blue;}
+    .c3{border: .4rem solid yellow;}
+    .c4{border: .4rem solid green;}
+    .c5{border: .4rem solid orange;}
+    .c6{border: .4rem solid pink;}
+    .c7{border: .4rem solid black;}
+  
+    .playing {
+      transform: scale(1.1);
+      border-color:blue;
+      box-shadow: 0 0 1rem blue;
+    }
+  
+    kbd {
+      display: block;
+      font-size: 4rem;
+    }
+  
+    .sound {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+      color: #ffc600;
+    }
+  
