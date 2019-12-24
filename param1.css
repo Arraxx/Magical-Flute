@@ -38,27 +38,22 @@ nav {
   }
 }
 
+/*navbar css start*/
 .nav-item {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
-.nav-item li {
-  list-style: none;
+
+.btn{
+  width: fit-content;
+  font-size: 1.5rem;
 }
-.nav-item a{
-  color: aliceblue;
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 12px;
-  text-transform: uppercase;
-  border: none;
+
+.btn-outline-light{
+  border-color: transparent;
 }
-.nav-item a:hover{
-  border-radius :1020px;
-  transition: 0.4s all;
-  background-color: white;
-  min-height: 25px;
-}
+/*navbar css end*/
 
 @media screen and (min-width: 873px){
 #head-animation{
