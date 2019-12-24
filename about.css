@@ -8,13 +8,10 @@
     border-radius: 1020px;
 }
 .btn1,.btn2{
-  width: 80px
+  width: 80px;
 }
 .btn3{
   width: 105px;
-}
-h2{
-  margin-top: 200px;
 }
 nav {
   display: flex;
@@ -55,12 +52,12 @@ nav {
 }
 .nav-item a:hover{
   border-radius :1020px;
-  transition: 0.4s all;
+  transition: 0.6 s all;
   background-color: white;
   min-height: 25px;
 }
 body,html {
-    background: url(https://images.unsplash.com/photo-1548124542-95039a9624d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) no-repeat center center fixed; 
+    background: url(https://images.unsplash.com/photo-1548124542-95039a9624d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,29 +65,17 @@ body,html {
     font-size :10px;
     font-family: 'Cinzel', serif;
 }
-h2 {
-    text-align: center;
-    letter-spacing: 3px;
-    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
-    font-size: 50px;
-
-}
-
-h3 {
-    text-align: center;
-    letter-spacing: 2px;
-    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
-    font-size:25px;
-}
-
-h3 a {
-    color: black;
-}
-
 h1{
-    text-align: center;
+  font-weight: bold;  
+}
+.jumbotron{
+  background-color: rgba(170,170,170,0.5);
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
-#home{
-    color: black;
+#fact{
+  display: block;
+  font-size: 20px;
+  text-shadow: none;
 }
