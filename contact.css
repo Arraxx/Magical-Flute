@@ -3,6 +3,11 @@
   padding:0px;
   box-sizing: border-box;
 }
+
+.navbar{
+  background: #000000;
+}
+
 .btn{
     width: 130px;
     border-radius: 1020px;
