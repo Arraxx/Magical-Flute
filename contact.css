@@ -3,9 +3,20 @@
   padding:0px;
   box-sizing: border-box;
 }
+
+.navbar{
+  background: #000000;
+}
+
 .btn{
-    width: 135px;
+    width: 130px;
     border-radius: 1020px;
+}
+.btn1,.btn2{
+  width: 80px
+}
+.btn3{
+  width: 105px;
 }
 h2{
   margin-top: 200px;
@@ -28,7 +39,7 @@ nav {
 {
   .collapse{
     -webkit-text-stroke: thin;
-    padding-left: 45%;
+    padding-left: 46%;
   }
 }
 

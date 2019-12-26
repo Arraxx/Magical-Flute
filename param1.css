@@ -4,9 +4,34 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  background:transparent;
+
+}
+
+.navbar {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: black;
+  opacity: 0.9;
+  
+}
+
 .btn{
-width: 80px;
-border-radius: 900px;
+width: 130px;
+border-radius: 1020px;
+}
+.btn1,.btn2{
+  width: 80px;
+}
+.btn3{
+  width: 105px;
 }
 h1{
   margin-top: 50px;
@@ -34,7 +59,7 @@ nav {
 {
   .collapse{
     -webkit-text-stroke: thin;
-    padding-left: 45%;
+    padding-left: 46%;
   }
 }
 
