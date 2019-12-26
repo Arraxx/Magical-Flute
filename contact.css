@@ -43,6 +43,10 @@ nav {
   }
 }
 
+.navbar-toggler-icon{
+  background: url(images/outline_reorder_white_18dp.png) no-repeat center center;
+}
+
 .nav-item {
   display: flex;
   justify-content: space-around;
@@ -65,7 +69,7 @@ nav {
   min-height: 25px;
 }
 body,html {
-    background: url(https://images.unsplash.com/photo-1548124542-95039a9624d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) no-repeat center center fixed; 
+    background: url(images/contribution-img.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
