@@ -86,8 +86,8 @@ body,html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-size :10px;
     font-family: 'Cinzel', serif;
+    font-size :10px;
 }
 h1{
   font-weight: bold;  
@@ -104,5 +104,11 @@ h1{
   text-shadow: none;
 
 
+}
+
+h2{
+  line-height: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  word-spacing: 3px;
 }
 

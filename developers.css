@@ -103,7 +103,7 @@ body,html {
 .developer_name{
 	max-width: 240px;
 	border-radius: 5px;
-	background-color: #5cb85c;
+	background-color: #000000;
 	color: #fff;
 	cursor: pointer;
 	box-shadow: 2px 2px 5px 3px #5cb85c27;
