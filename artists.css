@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background:transparent;
+  
+  }
+  
+  .navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+  }
+  
+  .navbar.scrolled {
+    background: black;
+    opacity: 0.9;
+    
+  }
+  
+  .btn{
+  width: 130px;
+  border-radius: 1020px;
+  }
+  .btn1,.btn2{
+    width: 80px;
+  }
+  .btn3{
+    width: 105px;
+  }
+  h1{
+    margin: 20px;
+    text-decoration: underline;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:black ;
+  }
+  
+  .logo {
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+  }
+  @media screen and (min-width: 992px)
+  {
+    .collapse{
+      -webkit-text-stroke: thin;
+      padding-left: 46%;
+    }
+  }
+  
+  .navbar-toggler-icon{
+    background: url(images/outline_reorder_white_18dp.png) no-repeat center center;
+  }
+  
+  .nav-item {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-item li {
+    list-style: none;
+  }
+  .nav-item a{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+  }
+  .nav-item a:hover{
+    border-radius :1020px;
+    transition: 0.4s all;
+    background-color: white;
+    min-height: 25px;
+  }
+  
+  @media screen and (min-width: 873px){
+  #head-animation{
+    font-size: 40px;
+    -webkit-transition:font-size 2s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 2s;
+  }
+  
+  #head-animation:hover{
+    font-size: 80px ;
+  }
+  }
+  
+  @media screen and (max-width: 872px){
+    #head-animation{
+      font-size: 30px;
+    }
+  } 
+  
+  @media screen and (max-width: 472px){
+    .first-img{
+      height: 40px;
+    }
+    
+    .second-img{
+      height: 40px;
+    }
+  }
+    body,html {
+      margin: 0;
+      padding: 0;
+      font-size: 10px;
+      background: url(images/bg1.png) no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Cinzel', serif;
+    }
+
+    .container{
+        margin-top: 70px;
+    }
+
+    p{
+        background: rgba(227, 221, 221, 0.3);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 2rem;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 35px;
+        margin: 20px;
+        
+    }
+
+    .artist{
+        background: #FFE933;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 40px;
+    }
+
+    .artist-link{
+        background: #000;
+        padding: 15px;
+        border-radius: 10px;
+    }
