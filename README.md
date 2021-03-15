@@ -2,7 +2,7 @@
 
 
 
-> **Magical-Flute** is a Webpage. The code of magical-flute is written in **JavaScript** language .
+> **Magical-Flute** is a Webpage. The code of magical-flute is written in **JavaScript** language.
 
 
 ## Language
